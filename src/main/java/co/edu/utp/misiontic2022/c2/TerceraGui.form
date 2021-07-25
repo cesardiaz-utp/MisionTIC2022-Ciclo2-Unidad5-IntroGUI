@@ -340,7 +340,7 @@
               </StatementProvider>
               <Parameters>
                 <CodeExpression id="10_jLabel2">
-                  <CodeVariable name="jLabel2" type="4096" declaredType="javax.swing.JLabel"/>
+                  <CodeVariable name="jLabel2" type="20480" declaredType="javax.swing.JLabel"/>
                   <ExpressionOrigin>
                     <ExpressionProvider type="ComponentRef">
                       <ComponentRef name="jLabel2"/>
@@ -1365,6 +1365,8 @@
             </Component>
             <Component class="javax.swing.JSlider" name="jSlider1">
               <Properties>
+                <Property name="majorTickSpacing" type="int" value="10"/>
+                <Property name="minorTickSpacing" type="int" value="5"/>
                 <Property name="paintLabels" type="boolean" value="true"/>
                 <Property name="paintTicks" type="boolean" value="true"/>
                 <Property name="snapToTicks" type="boolean" value="true"/>
