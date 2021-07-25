@@ -13,6 +13,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 public class SegundaGui {
+
     public static void main(String args[]) {
         // Creando el Marco
         JFrame frame = new JFrame("Chat Frame");
@@ -29,7 +30,7 @@ public class SegundaGui {
         JMenuItem m12 = new JMenuItem("Guardar como");
         m1.add(m11);
         m1.add(m12);
-        
+
         // Creando el panel en la parte inferior
         JPanel panel = new JPanel();
         JLabel label = new JLabel("Introducir texto");
